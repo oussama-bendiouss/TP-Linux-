@@ -4,7 +4,7 @@
 #include <errno.h>
 
 void print_errors(char *f1,char *f2){
-     fprintf(stderr, "Non mon petit, tu peux pas copier le %s au %s à cause de :\n\n\n",f1,f2,strerror(errno)); 
+     fprintf(stderr, "Non mon petit, tu peux pas copier le %s au %s à cause de :\n%s\n",f1,f2,strerror(errno)); 
      exit(EXIT_FAILURE);
 }
 void print_usage(char *this){
