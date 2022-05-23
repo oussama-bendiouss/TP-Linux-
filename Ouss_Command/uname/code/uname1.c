@@ -9,7 +9,7 @@ void print_errors(char *this){
 }
 
 void version(){
-  puts("TP : Programmation Linux Windows, CentraleSupélec, 2022 \u00A9\nCat program : basic functionnality works fine with some few features");
+  puts("TP : Programmation Linux Windows, CentraleSupélec, 2022 \u00A9\nuname  program : basic functionnality works fine with some few features");
   exit(EXIT_FAILURE);
 
 }
